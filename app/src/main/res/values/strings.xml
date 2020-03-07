@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Krishak Mitra</string>
+    <string name="identify">IDENTIFY</string>
+    <string name="flower">FLOWERS</string>
+    <string name="sarkari">SARKARI</string>
+    <string name="yojna">YOJNAYE</string>
+    <string name="search">SEARCH FLOWERS...</string>
+    <string name="back">BACK</string>
+    <string name="shop">SHOPS</string>
+    <string name="aaspass">PEST and SEED SHOPS</string>
+    <string name="near">NEAR ME</string>
+    <string name="change"> CHANGE LANGUAGE</string>
+    <string name="classify">CLASSIFY!</string>
+    <string name="notf">Not a Flower</string>
+    <string name="descr"><u> DESCRIPTION</u></string>
+    <string name="description">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles. Flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America, and north-western Africa. Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant.</string>
+    <string name="rose_dis">ROSE DISEASE</string>
+    <string name="one"><a href="https://soilhealth.dac.gov.in/"><b><u>1. Soil Health Card Scheme</u></b></a>\nLaunched in 2015, the scheme has been introduced to assist State Governments to issue Soil Health Cards to all farmers in the country.  The Soil Health Cards provide information to farmers on nutrient status of their soil along with recommendation on appropriate dosage of nutrients to be applied for improving soil health and its fertility.</string>
+    <string name="two"><a href="https://pmfby.gov.in/"><b><u>2. Pradhan Mantri Fasal Bima Yojana (PMFBY)</u></b></a>\nPMFBY is an actuarial premium based scheme under which farmer has to pay maximum premium of 2% for Kharif, 1.5% for Rabi food and oilseed crops and 5% for annual commercial/horticultural crops and remaining part of the actuarial/bidded premium is shared equally by the Centre and State Government.  One of the objectives of the scheme is to facilitate prompt claims settlement. The claims must be settled within two months of harvest subject to timely provision of both yield data and share of premium subsidy by the State Government.</string>
+    <string name="three"><a href="https://pmksy.gov.in/"><b><u>3. Pradhan Mantri Krishi Sinchai Yojana (PMKSY)</u></b></a>\nIt was launched on 1st July, 2015 with the motto of ‘Har Khet Ko Paani’ for providing end-to end solutions in irrigation supply chain, viz. water sources, distribution network and farm level applications.
+
+PMKSY not only focuses on creating sources for assured irrigation, but also creating protective irrigation by harnessing rain water at micro level through ‘Jal Sanchay’ and ‘Jal Sinchan’.
+
+Micro irrigation is to be popularised to ensure ‘Per drop-More crop’. PMKSY adopts State level planning and projectised execution that allows States to draw up their own irrigation development based on District Irrigation Plans and State Irrigation Plans.
+
+Components:
+Accelerated Irrigation Benefit Programme(AIBP): implemented by Ministry of Water Resources, RD and GR.
+
+PMKSY (Har Khet ko Pani): implemented by Ministry of Water Resources, RD and GR
+
+PMKSY (Watershed): implemented by Department of Land Resources.
+
+PMKSY(Per Drop More Crop - PDMC)</string>
+    <string name="four"><a href="https://www.enam.gov.in/"><b><u>4. National Agriculture Market (e-NAM)</u></b></a>\nIt provides e-marketing platform at national level and support creation of infrastructure to enable e-marketing.
+
+This innovative market process is revolutionizing agriculture markets by ensuring better price discovery. It brings in transparency and competition to enable farmers to get improved remuneration for their produce moving towards ‘One Nation One Market’.   </string>
+    <string name="five"><a href="https://pib.gov.in/newsite/PrintRelease.aspx?relid=179318"><b><u>5. Micro Irrigation Fund (MIF)</u></b></a>\ndedicated MIF created with NABARD has been approved with an initial corpus of Rs. 5000 crore (Rs. 2000 crore for 2018-19 and Rs. 3000 crore for 2019-20) for encouraging public and private investments in Micro irrigation. The main objective of the fund is to facilitate the States in mobilizing the resources for expanding coverage of Micro Irrigation.
+
+MIF would not only facilitate States in incentivizing and mobilizing resources for achieving the target envisaged under PMKSY-PDMC but also in bringing additional coverage through special and innovative initiatives by State Governments.
+
+An Advisory Committee has been set up to provide policy direction and ensure effective planning, coordination and monitoring of the Micro Irrigation Fund.  </string>
+
+    <string name="tulips_desc">ulips form a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly colored, generally red, pink, yellow, or white. They often have a different colored blotch at the base of the tepals </string>
+    <string name="fone">Tulip fire is a fungal disease of tulips caused by Botrytis tulipae, which produces brown spots and twisted, withered and distorted leaves. It is so named because plants appear scorched by fire.</string>
+    <string name="ftw"><b>SYMPTOMS</b></string>
+    <string name="fthree">Leaves may fail to emerge or may be stunted or deformed. The shoots may curl to one side. Dead spots are surrounded by dark green. Spots turn white or yellow and have small black granules (sclerotia) in them.</string>
+    <string name="ffour"><b>PATHOGENS/CAUSE</b></string>
+    <string name="ffive"><i>Botrytis tulipae</i></string>
+    <string name="fsix"><b>Management</b></string>
+    <string name="fsev">Purchase fungicide-treated bulbs. Apply a fungicide to protect plants</string>
+    <string name="pone">FluorescentPseudomonas isolates were obtained from Pythium-diseased tulip roots or rhizospheres. A selection of these isolates was tested for root rot-suppressing capabilities, using tulip cultivar Paul Richter (ice-tulip) as host andPythium ultimum P17 as pathogen.</string>
+
+    <string name="pthree">Bulbs have soft, gray spots with brown borders at the base of the bulb. Shoots fail to emerge.</string>
+
+    <string name="pfive"><i>Pythium</i></string>
+
+    <string name="psev">Plant in chemically or steam-pasteurized potting mix. Discard infected plants.</string>
+
+
+    <string name="bone">Basal rot (Fusarium oxysporum) is a major disease of tulips. The fungus can live for several years in soil. It enters the plant via wounds at the base of bulb. Roots develop sunken spots that grow into gray or brown decay with a foul odor</string>
+    <string name="bthree">Large spots on bulbs are dark brown. White or pink fungal growth forms on the bulbs. Flowers from infected bulbs are deformed. Foliage dies prematurely..</string>
+
+    <string name="bfive"><i>Fusarium oxysporum f. sp. tulipae</i></string>
+
+    <string name="bsev">Do not plant bulbs that have white or pink fungus on them. Purchase and plant fungicide-treated bulbs.</string>
+
+
+
+    <string name="prevention_b">   PREVENTION AND TREATMENT</string>
+    <string name="prevent_info"> • Maintain Good Sanitation\n
+•	Remove and Destroy Infected Canes\n
+•	Keep Leaves Dry\n\n\nUse fungicide sprays to control black spot effectively, even on resistant varieties. A rigorous fungicide program must be followed during conditions that favour disease development for susceptible cultivars. Select one of the following fungicide sprays, if disease is severe enough to warrant control use chemical Treatment"
+</string>
+<string name="treat_info">Bifenthrin,Chlorothalonil,Propiconazole,Sulfur etc</string>
+    <string name="chemical">     CHEMICAL TREATMENT</string>
+
+    <string name="prev_mos">Virus-infected plants cannot be saved. Rose mosaic spreads slowly, if at all, in established rose plantings through root grafts. Infected plants should be removed from highly prized plantings and destroyed. Buy only healthy plants from a reputable dealer; especially avoid purchasing plants showing any mosaic symptoms.</string>
+
+</resources>

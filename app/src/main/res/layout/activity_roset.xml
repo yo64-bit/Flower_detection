@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    tools:context=".roset">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imr1"
+            android:layout_width="316dp"
+            android:layout_height="119dp"
+            android:layout_marginLeft="-7dp"
+            android:src="@drawable/gr3" />
+        <ImageView
+            android:id="@+id/imr2"
+            android:layout_width="309dp"
+            android:layout_height="696dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gr31" />
+        <TextView
+            android:id="@+id/tvr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Rose rosette disease is an untreatable rose disease caused by the Rose rosette virus (RRV), and is spread and introduced into the rose during feeding by the rose leaf curl mite (Phyllocoptes fructiplilus). This extremely small eriophyid mite feeds on cell sap of the tender stems and leaf petioles. The rose leaf curl mite alone causes little damage while feeding, but if it is a carrier of RRV, symptoms begin to appear in the rose typically within one to three months.
+
+Roses exhibit reddened terminal growth on infected branches, and the stems become thicker and more succulent than those on unaffected parts of the plant. These stems exhibit an abnormally high number of pliable thorns, which may be either green or red. Rose leaves that develop on infected branches are smaller than normal and may be deformed similarly to herbicide injury by 2,4-D. "
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   PREVENTION AND TREATMENT "
+            android:id="@+id/tvr2"
+            android:padding="9dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="The wild multiflora rose is very susceptible to the rose rosette disease, so any nearby wild plants should be removed and promptly disposed. Any infected, cultivated roses should be immediately removed, then burned or bagged. Also remove any roots, which might re-sprout later. Do not leave an uprooted infected plant in the garden, as the mites may leave this rose for other nearby plants. Always space rose plants so they do not touch.\n\nBecause RRV is systemic within the infected rose plants, grafting asymptomatic stems onto other rose plants will transmit the virus. Pruners used on diseased plants must be disinfested with rubbing alcohol or a dilute bleach solution before being used on uninfected plants, as sap on the pruners is contaminated with the virus.\n\nTo reduce the spread of the eriophyid mites from the site of an infected rose, nearby roses can be treated with a bifenthrin spray every two weeks between April and September. This may prevent additional plants from becoming diseased. See Table 1 for examples of brands and products containing bifenthrin. Always check product labels for the correct active ingredient. Follow label directions for use."
+            android:id="@+id/tvr3"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="39dp"
+            android:padding="5dp"
+            android:text="      CHEMICAL TREATMENT"
+            android:id="@+id/tvr4"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/tvr5"
+            android:text="Bifenthrin,Chlorothalonil,Copper Fungicides,Horticultural oil,Myclobutanil."
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

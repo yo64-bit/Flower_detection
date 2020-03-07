@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    tools:context=".blackrust">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="316dp"
+            android:layout_height="119dp"
+            android:layout_marginLeft="-7dp"
+            android:src="@drawable/gr1" />
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="309dp"
+            android:layout_height="696dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gr11" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Black spot is a common and serious rose disease often reaching epidemic proportions in a season. The disease is caused by the fungus, Diplocarpon rosae. It is most severe after long wet, warm periods in the spring. Symptoms occur on rose leaves as circular, black spots surrounded by a yellow area. Infected leaves often drop from the plant. Infection continues throughout the summer months. The immature wood of first year canes develops raised, purple-red irregular blotches. Plants become stunted and produce fewer, paler flowers. By mid-summer severely infected plants may have lost all of their leaves"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention_b"
+            android:id="@+id/tv2"
+            android:padding="9dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/tv3"
+            android:text="@string/prevent_info"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="39dp"
+            android:id="@+id/tv4"
+            android:padding="5dp"
+            android:text="@string/chemical"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/tv5"
+            android:text="@string/treat_info"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

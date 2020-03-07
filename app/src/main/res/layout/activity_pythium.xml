@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    tools:context=".pythium">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/impy1"
+            android:layout_width="316dp"
+            android:layout_height="119dp"
+            android:layout_marginLeft="-7dp"
+            android:src="@drawable/t31" />
+
+        <ImageView
+            android:id="@+id/impy2"
+            android:layout_width="309dp"
+            android:layout_height="696dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="58dp"
+            android:src="@drawable/t32" />
+        <TextView
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/pone" ></TextView>
+
+
+
+        <TextView
+            android:id="@+id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="35sp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ftw" ></TextView>
+
+        <TextView
+            android:id="@+id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/pthree" ></TextView>
+
+        <TextView
+            android:id="@+id/p4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="35sp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ffour" ></TextView>
+        <TextView
+            android:id="@+id/p5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/pfive" ></TextView>
+
+        <TextView
+            android:id="@+id/p6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="35sp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/fsix" ></TextView>
+
+
+
+        <TextView
+            android:id="@+id/p7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/psev" ></TextView>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

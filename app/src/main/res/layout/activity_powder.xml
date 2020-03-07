@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    tools:context=".powder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imp1"
+            android:layout_width="316dp"
+            android:layout_height="119dp"
+            android:layout_marginLeft="-7dp"
+            android:src="@drawable/gr2" />
+        <ImageView
+            android:id="@+id/imp2"
+            android:layout_width="309dp"
+            android:layout_height="696dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gr21" />
+        <TextView
+            android:id="@+id/tvp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Powdery mildew is another widespread and serious disease problem of roses. It is caused by the fungus, Sphaerotheca pannosa var. rosae and produces a grayish-white powdery substance on the surfaces of young leaves, shoots and buds. Infected leaves may be distorted, and some leaf drop may occur. Flower buds may fail to open, and those that do may produce poor-quality flowers. It can occur almost anytime during the growing season when temperatures are mild (70 to 80 °F), and the relative humidity is high at night and low during the day. It is most severe in shady areas and "
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   PREVENTION AND TREATMENT "
+            android:id="@+id/tvp2"
+            android:padding="9dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/tvp3"
+            android:text="•	Avoid Injury to the Plant During Transplanting,Cultivating, Pruning, and Flower – Cutting.\n •	Prune Properly: To prune an outward facing bud. This will help to avoid too many branches growing into the center of the plant that may cross and rub together.\n
+•	Remove and Destroy all Infected or Dead Portions of Canes Immediately
+"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="39dp"
+            android:padding="5dp"
+            android:id="@+id/tvp4"
+            android:text="      CHEMICAL TREATMENT"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/tvp5"
+            android:text="chlorothalonil, mancozeb, myclobutanil, propiconazole, or copper fungicides."
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

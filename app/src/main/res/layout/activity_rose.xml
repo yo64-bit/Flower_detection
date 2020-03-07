@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="425dp"
+            android:layout_height="583dp"
+            android:id="@+id/firstImage"
+            android:src="@drawable/gx" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/descr"
+            android:id="@+id/description"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/des_info"
+            android:text="@string/description"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/disease"
+            android:text="@string/rose_dis"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="430dp"
+            android:id="@+id/blackrust"
+            android:clickable="true"
+            android:layout_height="177dp"
+            android:src="@drawable/g1" />
+
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="177dp"
+            android:id="@+id/powder"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/g2" />
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="177dp"
+            android:id="@+id/roset"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/g3" />
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="177dp"
+            android:id="@+id/mosaic"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/g4" />
+
+
+    </LinearLayout>
+</ScrollView>

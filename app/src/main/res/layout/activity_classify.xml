@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Classify">
+
+    <ImageView
+        android:id="@+id/selected_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:layout_below="@id/selected_image"
+        app:srcCompat="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/classify_image"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/selected_image"
+        android:layout_centerHorizontal="true"
+        android:text="@string/classify" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/classify_image"
+        android:layout_centerHorizontal="true"
+        android:text="@string/back" />
+
+    <LinearLayout
+        android:id="@+id/labels"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/back_button"
+        android:layout_gravity="center"
+        android:layout_marginBottom="44dp"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="370dp"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/label1"
+                    android:layout_width="280dp"
+                    android:layout_margin="35dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:background="@drawable/round"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginLeft="35dp"
+                    android:textSize="30sp"
+                    android:id="@+id/not"
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

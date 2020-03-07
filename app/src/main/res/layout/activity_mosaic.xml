@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    tools:context=".mosaic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imm1"
+            android:layout_width="316dp"
+            android:layout_height="119dp"
+            android:layout_marginLeft="-7dp"
+            android:src="@drawable/gr4" />
+        <ImageView
+            android:id="@+id/imm2"
+            android:layout_width="309dp"
+            android:layout_height="696dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gr41" />
+        <TextView
+            android:id="@+id/tvm1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="The symptoms associated with Rose mosaic virus (RMV) are highly variable. Yellow wavy line patterns, ring spots and mottles in leaves will occur on some varieties of roses sometime during the growing season. In general, symptoms are most evident in the spring. Yellow net and mosaic symptoms on the leaves are also associated with RMV and detract from the overall quality of the plant. Infected plants become weakened and are more sensitive to damage caused by other stresses, such as drought or low temperatures."
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prevention_b"
+            android:id="@+id/tvm2"
+            android:padding="9dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/prev_mos"
+            android:id="@+id/tvm3"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="39dp"
+            android:padding="5dp"
+            android:text="@string/chemical"
+            android:id="@+id/tvm4"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/tvm5"
+            android:text="Bifenthrin,Chlorothalonil,Propiconazole,Sulfur etc."
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

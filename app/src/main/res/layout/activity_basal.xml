@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    tools:context=".basal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imba1"
+            android:layout_width="316dp"
+            android:layout_height="119dp"
+            android:layout_marginLeft="-7dp"
+            android:src="@drawable/t21" />
+
+        <ImageView
+            android:id="@+id/imba2"
+            android:layout_width="309dp"
+            android:layout_height="696dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="58dp"
+            android:src="@drawable/t22" />
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="35sp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/descr" ></TextView>
+
+
+
+        <TextView
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/bone" ></TextView>
+
+        <TextView
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ftw" ></TextView>
+
+        <TextView
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/bthree" ></TextView>
+        <TextView
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ffour" ></TextView>
+
+        <TextView
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="30sp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/bfive" ></TextView>
+        <TextView
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/fsix" ></TextView>
+
+
+
+        <TextView
+            android:id="@+id/b7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textColor="#171a18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/bsev" ></TextView>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
