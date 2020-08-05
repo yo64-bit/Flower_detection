@@ -7,4 +7,4 @@ We also provided nearby shop location where one can buy pesticides and seeds(rem
 ![db](https://user-images.githubusercontent.com/59444659/76146441-c7c44880-60b8-11ea-9cf5-fb2b60a4fa79.png)
 ![ww](https://user-images.githubusercontent.com/59444659/76146473-fe01c800-60b8-11ea-9f18-dddaa4a26d46.png)
 
-
+Our team -https://github.com/yo64-bit,https://github.com/amansadhu ,https://github.com/HeapOwl
